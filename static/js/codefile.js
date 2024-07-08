@@ -10,7 +10,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(myMap);
 
 // Use this link to get the GeoJSON data.
-let link = "./static/data/Shipwrecks_WAM_002_WA_GDA2020_Public.geojson";
+let link = "../static/data/Shipwrecks_WAM_002_WA_GDA2020_Public.geojson";
 
 let geojsonLayer;
 
